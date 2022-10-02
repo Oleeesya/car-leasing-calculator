@@ -1,0 +1,24 @@
+.range__thumb {
+    width: 379px;
+    -webkit-appearance: none;
+    background-color: #E1E1E1;
+    margin: 0 auto;
+    height: 0;
+    position: absolute;
+    top: 3px;
+  }
+  
+  .range__thumb::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+  }
+  
+  .range__thumb::-webkit-slider-thumb {
+    width: 16px;
+    -webkit-appearance: none;
+    height: 16px;
+    cursor: ew-resize;
+    background: #FF9514;
+    border-radius: 50%;
+    margin-top: -3px;
+  }
+  

@@ -1,0 +1,6 @@
+.container__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: o auto;
+    justify-content: space-between;
+}

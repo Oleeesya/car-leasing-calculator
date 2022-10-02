@@ -1,0 +1,12 @@
+.price-input_display_show {
+    display: block;
+    background: #EBEBEC;
+    border-radius: 16px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: right;
+    color: #575757;
+}

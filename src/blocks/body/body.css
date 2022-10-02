@@ -1,0 +1,12 @@
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* 
+@media(max-width: 880px) {
+    .body {
+        max-width: 320px;
+    }
+} */

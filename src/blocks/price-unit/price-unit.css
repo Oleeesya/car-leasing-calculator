@@ -1,0 +1,15 @@
+.price-unit {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    padding: 15px 17px;
+    background: #EBEBEC;
+    border-radius: 16px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: right;
+    color: #575757;
+}
