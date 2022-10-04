@@ -1,5 +1,6 @@
 {
   "name": "car-leasing-calculator",
+  "homepage": "https://oleeesya.github.io/car-leasing-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
