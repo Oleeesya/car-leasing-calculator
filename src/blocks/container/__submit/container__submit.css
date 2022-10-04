@@ -1,0 +1,32 @@
+.container__submit {
+    background: #FF9514;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.875rem;
+    line-height: 36px;
+    color: #FFF;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+@media(max-width: 1024px) {
+    .container__submit {
+        padding: 0.875rem 3.25rem 1.125rem;
+        margin-top: 44px;
+    }
+}
+
+@media(max-width: 580px) {
+    .container__submit {
+        margin: 3px auto 64px;
+        padding: 1.5rem 4.3rem 1.83rem;
+        font-size: 1.83rem;
+    }
+}

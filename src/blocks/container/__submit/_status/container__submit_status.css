@@ -1,0 +1,25 @@
+.container__submit_hover:hover {
+    background: #111111;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container__submit:active {
+    background: #575757;
+    transition: 0.2s;
+}
+
+.container__submit_disabled {
+    opacity: 0.4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.container__submit_disabled:hover {
+    background: #FF9514;
+    cursor: inherit;
+    transition: 0.2s;
+}

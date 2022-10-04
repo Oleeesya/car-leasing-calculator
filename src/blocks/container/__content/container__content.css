@@ -1,6 +1,19 @@
 .container__content {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
     margin: o auto;
     justify-content: space-between;
+}
+
+@media(max-width: 1047px) {
+    .container__content {
+        column-gap: 1rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container__content {
+        display: block;
+    }
 }

@@ -4,9 +4,21 @@
     box-sizing: border-box;
     padding: 0;
 }
-/* 
-@media(max-width: 880px) {
+
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* @media (max-width: 991px) {
     .body {
-        max-width: 320px;
+        font-size: 14px;
+    }
+} */
+
+/* @media (max-width: 1300px) {
+    .body {
+        font-size: 15px;
     }
 } */

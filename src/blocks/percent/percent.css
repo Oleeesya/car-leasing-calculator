@@ -1,5 +1,4 @@
-.price-unit {
-    /* display: inline-block; */
+.percent {
     display: flex;
     align-items: center;
     padding: 15px 17px;

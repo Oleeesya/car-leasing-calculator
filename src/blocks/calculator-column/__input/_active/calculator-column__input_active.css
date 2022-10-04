@@ -1,0 +1,5 @@
+.calculator-column__input_active {
+    background: #fff;
+    border: 2px solid #F3F3F4;
+    border-radius: 16px;
+}

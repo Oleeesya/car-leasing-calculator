@@ -1,0 +1,18 @@
+.calculator-column_conclusion {
+    width: 50%;
+    display: inline-block;
+}
+
+@media(max-width: 1024px) {
+    .calculator-column_conclusion {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 580px) {
+    .calculator-column_conclusion {
+        display: block;
+        width: 100%;
+        margin-bottom: 29px;
+    }
+  }

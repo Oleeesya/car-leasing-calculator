@@ -3,6 +3,12 @@
     font-style: normal;
     color: #575757;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.25;
+}
+
+@media(max-width: 580px) {
+    .calculator-column__title {
+        font-size: 1.17rem;
+    }
 }

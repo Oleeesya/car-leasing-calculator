@@ -1,5 +1,30 @@
 .range {
-  position: relative;
+  position: absolute;
   margin: 0 auto;
-  width: 379px;
+  width: 88%;
+  bottom: 0;
+}
+
+@media(max-width: 1260px) {
+  .range {
+      width: 86%;
+  }
+}
+
+@media(max-width: 1024px) {
+  .range {
+      width: 94%;
+  }
+}
+
+@media(max-width: 920px) {
+  .range {
+      width: 94%;
+  }
+}
+
+@media(max-width: 580px) {
+  .range {
+      width: 87%
+  }
 }

@@ -1,0 +1,32 @@
+.value-input {
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.875rem;
+    line-height: 36px;
+    color: #575757;
+    background: #F3F3F4;
+    border: none;
+    max-width: 200px;
+    width: 80%;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.value-input:focus {
+    outline: none;
+}
+
+@media(max-width: 580px) {
+    .value-input {
+        font-size: 1.83rem;
+        line-height: 20px;
+    }
+}

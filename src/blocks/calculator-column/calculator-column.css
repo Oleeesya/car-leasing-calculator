@@ -1,3 +1,9 @@
 .calculator-column {
-    width: 427px;
+    max-width: 427px;
+}
+
+@media(max-width: 1024px) {
+    .calculator-column {
+        max-width: inherit;
+    }
 }

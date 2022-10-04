@@ -1,36 +1,26 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-/* @import url(../vendor/normalize.css); */
+@import url(../src/vendor/normalize.css);
 @import url(../src/vendor/fonts/fonts.css);
 @import url(./blocks/body/body.css);
 @import url(./blocks/container/container.css);
+@import url(./blocks/container/__submit/container__submit.css);
+@import url(./blocks/container/__submit/_status/container__submit_status.css);
 @import url(./blocks/container/__heading/container__heading.css);
 @import url(./blocks/container/__content/container__content.css);
 @import url(./blocks/calculator-column/calculator-column.css);
 @import url(./blocks/calculator-column/__title/calculator-column__title.css);
 @import url(./blocks/calculator-column/__input/calculator-column__input.css);
+@import url(./blocks/calculator-column/__input/_active/calculator-column__input_active.css);
+@import url(./blocks/calculator-column/__input/_disabled/calculator-column__input_disabled.css);
+@import url(./blocks/calculator-column/__value/calculator-column__value.css);
+@import url(./blocks/calculator-column/__unit/calculator-column__unit.css);
+@import url(./blocks/calculator-column/_conclusion/calculator-column_conclusion.css);
 
-@import url(./blocks/label-price-input/label-price-input.css);
-@import url(./blocks/label-price-input/_unit/label-price-input_unit.css);
-@import url(./blocks/price-input/price-input.css);
-@import url(./blocks/price-input/_display/price-input_display_hidden.css);
-@import url(./blocks/price-input/_display/price-input_display_show.css);
-@import url(./blocks/price-unit/price-unit.css);
+@import url(./blocks/calculator-column/__input/_percent/calculator-column__input_percent.css);
+@import url(./blocks/value-input/value-input.css);
+@import url(./blocks/value-input/_display/value-input_display_hidden.css);
+@import url(./blocks/value-input/_display/value-input_display_show.css);
+@import url(./blocks/percent/percent.css);
 
 @import url(./blocks/range/range.css);
 @import url(./blocks/range/__thumb/range__thumb.css);
 @import url(./blocks/range/__track/range__track.css);
-
-
-

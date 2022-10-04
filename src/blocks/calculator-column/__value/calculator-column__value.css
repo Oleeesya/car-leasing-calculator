@@ -1,0 +1,9 @@
+.calculator-column__value {
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 0.9;
+    color: #575757;
+    border: none;
+}
